@@ -12,7 +12,7 @@ export default function OurValues() {
   ];
 
   return (
-    <Grid container spacing={2} sx={{ marginTop: 2 }}>
+    <Grid container spacing={2} sx={{ marginTop: 2 }} >
       {values.map((value, index) => (
         <Grid item xs={12} sm={6} md={4} key={index}>
           <Card elevation={3} sx={{ height: '100%' }}>
